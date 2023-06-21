@@ -1,0 +1,23 @@
+{
+  "name": "instancedrendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.147.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.4.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
